@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.withdraw-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdraw-card-container {
+  background-color: #150b3e;
+  width: 450px;
+  border-radius: 12px;
+  color: #d4d2db;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+.withdraw-profile-container {
+  display: flex;
+  align-items: center;
+}
+.withdraw-profile-log {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #585076;
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.withdraw-profile-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.withdraw-balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.withdraw-side-text {
+  color: #585076;
+  font-weight: 500;
+}
+.withdraw-balance {
+  font-size: 24px;
+  font-weight: 500;
+}
+.withdraw-rupees-text {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+}
+.withdraw-sub-heading {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.denomination-item-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
